@@ -1,0 +1,231 @@
+
+/* body{
+animation: change 10s infinite;
+}
+
+@keyframes change {
+  0% {
+    background-color: black;
+  }
+
+  25% {
+    background-color: rgb(11, 5, 36);
+  }
+
+  50% {
+    background-color: rgb(12, 51, 45);
+  }
+
+  75% {
+    background-color: rgb(59, 12, 55);
+  }
+
+  100% {
+    background-color: rgb(62, 63, 17);
+  }
+
+}
+ */
+html {
+  scroll-behavior: smooth;
+}
+
+.card {
+  border-radius:
+    4px;
+  box-shadow:
+    0 6px 10px rgba(0,
+      0,
+      0,
+      .08),
+    0 0 6px rgba(0,
+      0,
+      0,
+      .05);
+  transition:
+    .3s transform cubic-bezier(.155,
+      1.105,
+      .295,
+      1.12),
+    .3s box-shadow,
+    .3s -webkit-transform cubic-bezier(.155,
+      1.105,
+      .295,
+      1.12);
+  padding:
+    14px 80px 18px 36px;
+  cursor:
+    pointer;
+}
+
+.card:hover {
+  transform:
+    scale(1.05);
+  box-shadow:
+    0 10px 20px rgba(0,
+      0,
+      0,
+      .12),
+    0 4px 8px rgba(0,
+      0,
+      0,
+      .06);
+}
+
+.card h3 {
+  font-weight:
+    600;
+}
+
+.card-1 {
+  background-repeat:
+    no-repeat;
+  background-position:
+    right;
+  background-size:
+    80px;
+}
+
+@media(max-width: 990px) {
+  .card {
+    margin:
+      20px;
+  }
+}
+
+.bd-placeholder-img {
+  font-size:
+    1.125rem;
+  text-anchor:
+    middle;
+  -webkit-user-select:
+    none;
+  -moz-user-select:
+    none;
+  user-select:
+    none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size:
+      3.5rem;
+  }
+}
+
+.animation {
+  color:
+    white;
+  animation-name:
+    example;
+  animation-duration:
+    20s;
+}
+
+@keyframes example {
+  0% {
+    color:
+      #32053b;
+  }
+
+  25% {
+    color:
+      yellow;
+  }
+
+  50% {
+    color:
+      #0b8a5e;
+  }
+
+  100% {
+    color:
+      #0b598a;
+  }
+}
+
+.rex {
+  background-color:
+    #00DD73;
+}
+
+.rex2 {
+  color:
+    #00DD73;
+  font-weight:
+    bold;
+  border-radius:
+    5px;
+}
+
+.rex2:hover {
+  color:
+    #000000;
+  background-color:
+    #00DD73;
+  border:
+    #00DD73;
+}
+
+hr {
+  display:
+    block;
+  height:
+    1px;
+  border:
+    0;
+  border-top:
+    1px solid #ccc;
+  margin:
+    1em 0;
+  padding:
+    0;
+}
+
+.info {
+  background-color:
+    #36517E;
+  color:
+    white;
+}
+
+h1,
+h2 {
+  color:
+    #14f78b;
+}
+
+body {
+  background-color:
+    #001621;
+  color:
+    #dee6e9;
+}
+
+/*
+Default
+height
+for
+small
+devices
+*/
+#intro-example {
+  height:
+    600px;
+}
+
+/*
+Height
+for
+devices
+larger
+than
+992px
+*/
+@media (min-width: 992px) {
+  #intro-example {
+    height:
+      300px;
+  }
+}
+
